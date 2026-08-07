@@ -121,15 +121,26 @@ export default function Home() {
                   </div>
                 </div>
 
-                <a
-                  href="https://play.google.com/store/apps/details?id=com.nuansapos.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-primary to-secondary py-3 text-sm font-semibold text-background hover:opacity-95 transition-opacity"
-                >
-                  Buka di Play Store
-                  <ArrowUpRight className="h-4 w-4" />
-                </a>
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.nuansapos.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-primary to-secondary py-3 text-sm font-semibold text-background hover:opacity-95 transition-opacity"
+                  >
+                    Buka di Play Store
+                    <ArrowUpRight className="h-4 w-4" />
+                  </a>
+                  <a
+                    href="https://nuansapos.netlify.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex flex-1 items-center justify-center gap-2 rounded-xl border border-border bg-card/40 backdrop-blur-sm py-3 text-sm font-semibold hover:bg-muted/10 transition-colors"
+                  >
+                    Website Resmi NuansaPOS
+                    <Globe className="h-4 w-4 text-primary" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
