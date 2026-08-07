@@ -14,12 +14,14 @@ const outfit = Outfit({
   subsets: ["latin"],
   variable: "--font-heading",
 });
-
 export const metadata: Metadata = {
   title: "Nuansa Labs | Smart Digital Solutions & App Developer",
   description: "Official website of Nuansa Labs - Innovating custom software, web platforms, and mobile apps including NuansaPOS.",
   icons: {
     icon: "/logo.png",
+  },
+  verification: {
+    google: "r2BAVQ6EQgq7i0LgkserTeWO5njsss1PQpxbmUKxq0g",
   }
 };
 
